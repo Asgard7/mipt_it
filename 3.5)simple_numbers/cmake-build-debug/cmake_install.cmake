@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Samson/CLionProjects/simple_numbers
+# Install script for directory: C:/Users/Samson/Documents/GitHub/mipt_it/3.5)simple_numbers
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Samson/CLionProjects/simple_numbers/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Samson/Documents/GitHub/mipt_it/3.5)simple_numbers/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

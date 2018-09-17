@@ -10,7 +10,7 @@ int main()
         printf("1 not composite and not simple");
         return 0;
     }
-    for (int i = 2; i*i <= n; i++)
+    for (int i = 2; i*i <= n; i++) // if n=i*j -> i<=sqrt(n)||j<=sqrt(n) <-> i*i<=n||j*j<=n (else i*j>n )
     {
         if(n % i == 0)
         {
