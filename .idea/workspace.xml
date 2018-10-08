@@ -33,10 +33,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77004366-ec18-4dac-bc00-f403450951ac" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.6)area/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/3.6)area/main.c" afterDir="false" />
-    </list>
+    <list default="true" id="77004366-ec18-4dac-bc00-f403450951ac" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/3.6)area_ver2/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +55,7 @@
     <session id="1630618616">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.opened" value="2" />
@@ -77,36 +74,24 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="c" value="400" />
-          <entry key="txt" value="22" />
+          <entry key="txt" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="ObjectiveC" value="400" />
-          <entry key="PLAIN_TEXT" value="22" />
+          <entry key="PLAIN_TEXT" value="23" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/3.6)area_ver2/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/3.6)area/main.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="93" selection-start-column="93" selection-end-column="93" />
+            <state relative-caret-position="323">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -156,16 +141,6 @@
             <path>
               <item name="3_5_area_ver2" type="b2602c69:ProjectViewProjectNode" />
               <item name="mipt_it" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="3_5_area_ver2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mipt_it" type="462c0819:PsiDirectoryNode" />
-              <item name="3.6)area" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="3_5_area_ver2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mipt_it" type="462c0819:PsiDirectoryNode" />
-              <item name="3.6)area_ver2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -219,7 +194,7 @@
       <updated>1537733498522</updated>
       <workItem from="1537733505259" duration="128000" />
       <workItem from="1538997871461" duration="43000" />
-      <workItem from="1539002644403" duration="1857000" />
+      <workItem from="1539002644403" duration="2583000" />
     </task>
     <task id="LOCAL-00001" summary="final ver.2">
       <created>1539004419918</created>
@@ -228,15 +203,21 @@
       <option name="project" value="LOCAL" />
       <updated>1539004419918</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="final ver.1">
+      <created>1539004521615</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1539004521615</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2028000" />
+    <option name="totallyTimeSpent" value="2754000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18176973" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -245,7 +226,7 @@
       <window_info anchor="bottom" id="CMake" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -270,23 +251,24 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="final ver.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="final ver.2" />
+    <MESSAGE value="final ver.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="final ver.1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/3.6)area_ver2/main.c">
+    <entry file="file://$PROJECT_DIR$/3.6)area/main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="255">
+          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3.6)area/main.c">
+    <entry file="file://$PROJECT_DIR$/3.6)area_ver2/main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="93" selection-start-column="93" selection-end-column="93" />
+        <state relative-caret-position="323">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
