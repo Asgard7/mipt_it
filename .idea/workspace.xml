@@ -34,11 +34,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77004366-ec18-4dac-bc00-f403450951ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Cprojects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Cprojects.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.6)area_ver2/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/3.6)area_ver2/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.6)area/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/3.6)area/main.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/3.6)area_ver2/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,29 +66,31 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="c" value="1" />
+          <entry key="c" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="ObjectiveC" value="1" />
+          <entry key="ObjectiveC" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="c" value="300" />
+          <entry key="c" value="400" />
+          <entry key="txt" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ObjectiveC" value="300" />
+          <entry key="ObjectiveC" value="400" />
+          <entry key="PLAIN_TEXT" value="22" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/3.6)area_ver2/main.c">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
@@ -103,9 +102,26 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/3.6)area/main.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="93" selection-start-column="93" selection-end-column="93" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Asgard7 &lt;43243989+asgard7@users.noreply.github.com&gt;" />
+      </list>
+    </option>
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -113,6 +129,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/3.6)area_ver2/main.c" />
+        <option value="$PROJECT_DIR$/3.6)area/main.c" />
       </list>
     </option>
   </component>
@@ -139,6 +156,11 @@
             <path>
               <item name="3_5_area_ver2" type="b2602c69:ProjectViewProjectNode" />
               <item name="mipt_it" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="3_5_area_ver2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mipt_it" type="462c0819:PsiDirectoryNode" />
+              <item name="3.6)area" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="3_5_area_ver2" type="b2602c69:ProjectViewProjectNode" />
@@ -197,25 +219,33 @@
       <updated>1537733498522</updated>
       <workItem from="1537733505259" duration="128000" />
       <workItem from="1538997871461" duration="43000" />
-      <workItem from="1539002644403" duration="1719000" />
+      <workItem from="1539002644403" duration="1857000" />
     </task>
+    <task id="LOCAL-00001" summary="final ver.2">
+      <created>1539004419918</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1539004419918</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1890000" />
+    <option name="totallyTimeSpent" value="2028000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18176973" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18176973" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.329718" />
       <window_info anchor="bottom" id="CMake" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -238,11 +268,25 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="final ver.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="final ver.2" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/3.6)area_ver2/main.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.6)area/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="93" selection-start-column="93" selection-end-column="93" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
