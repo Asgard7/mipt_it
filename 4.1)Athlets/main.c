@@ -16,6 +16,7 @@ void print_struct(Athlet *A, int n); //ункция для печати зада
 int main()
 {
     int k, i = 0, s;
+    printf("Enter number of athletes: ");
     scanf("%d", &k);
     Athlet A[k]; //создаем массив структур типа атлет
     get_struct(A, k);
