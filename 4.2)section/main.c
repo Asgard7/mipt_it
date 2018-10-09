@@ -9,12 +9,16 @@ void get_struct(Section *A, int k);
 
 int main()
 {
-    int n, i;
+    int n;
     printf("Enter number of section: ");
     scanf("%d", &n);
     Section A[n];
+    Section B[n];
     get_struct(A, n);
-    printf("Hello, World!\n");
+    for (int i = 0; i < n; i++)
+    {
+
+    }
     return 0;
 }
 
