@@ -1,0 +1,4 @@
+﻿  Source.c
+C:\Users\Samson\Documents\GitHub\mipt_it\Notebook 1\Notebook 1\Source.c(148): warning C4474: "printf" : для строки формата передано слишком много аргументов
+  C:\Users\Samson\Documents\GitHub\mipt_it\Notebook 1\Notebook 1\Source.c(148): note: заполнители и их параметры ожидают переменное число аргументов в количестве 0, но было предоставлено 1
+  Notebook 1.vcxproj -> C:\Users\Samson\Documents\GitHub\mipt_it\Notebook 1\Debug\Notebook 1.exe
