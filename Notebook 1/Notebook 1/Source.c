@@ -132,7 +132,7 @@ void print(Node* list)
 		else
 		{
 			printf("%s\t%s \n ", ptr->value.name, ptr->value.number);
-			return;
+			break;
 		}
 	}
 
