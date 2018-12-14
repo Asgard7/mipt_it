@@ -209,7 +209,7 @@ void print(Node* list)
 		else
 		{
 			printf("(%d %d) ;\n", ptr->value.x, ptr->value.y);
-			return;
+			break;
 		}
 	}
 
