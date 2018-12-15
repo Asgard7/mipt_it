@@ -19,17 +19,20 @@ Node* tail(Node* list);
 
 void print(Node* list);
 void unshift(Node** plist, Coord a);
+void dynamic_array_free(int **A, int N);
 
 Coord shift(Node** plist);
 
 int push(Node** plist, Coord a);
 int path(int flag, Coord A, Coord* pB, int** z, int** s, int** c, Coord** p, int M, int N);
+int ** dynamic_array_alloc(int N, int M);
 
 int main()
 {
 	int M, N;
 	int i, j;
-	FILE* f = fopen("input.txt", "r");
+	FILE *f;
+	f = fopen("input.txt", "r");
 	if (!f)
 	{
 		printf("error openning of file\n");
@@ -39,22 +42,12 @@ int main()
 	printf("M=%d ,N=%d \n", M, N);
 	char ch;
 	int** z, **c, **s;
-	z = (int**)malloc(M * sizeof(int*));
-	for (i = 0; i < M; i++)
-		z[i] = (int*)malloc(N * sizeof(int));
-
-	c = (int**)malloc(M * sizeof(int*));
-	for (i = 0; i < M; i++)
-		c[i] = (int*)malloc(N * sizeof(int));
-
-	s = (int**)malloc(M * sizeof(int*));
-	for (i = 0; i < M; i++)
-		s[i] = (int*)malloc(N * sizeof(int));
-
+	z = dynamic_array_alloc(N, M);
+	c = dynamic_array_alloc(N, M);
+	s = dynamic_array_alloc(N, M);
 	Coord** p = (Coord**)malloc(M * sizeof(Coord*));
 	for (i = 0; i < M; i++)
 		p[i] = (Coord*)malloc(N * sizeof(Coord));
-
 
 	for (i = 0; i < M; i++)
 	{
@@ -99,7 +92,6 @@ int main()
 		printf("\n");
 	}
 
-
 	if (z[0][0] == 1 || z[M - 1][N - 1] == 1)
 	{
 		printf("NO\n");
@@ -117,9 +109,13 @@ int main()
 		A = *pB;
 	}
 	path(0, A, pB, z, s, c, p, M, N);
-
-
-
+	dynamic_array_free(c, M);
+	dynamic_array_free(z, M);
+	dynamic_array_free(s, M);
+	for (int i = 0; i < N; i++) {
+		free(p[i]);
+	}
+	free(p);
 	return 0;
 }
 
@@ -190,6 +186,14 @@ void unshift(Node** plist, Coord a)
 	*plist = p;
 }
 
+void dynamic_array_free(int **A, int N)
+{
+	for (int i = 0; i < N; i++) {
+		free(A[i]);
+	}
+	free(A);
+}
+
 Coord shift(Node** plist)
 {
 	Coord t = { -1,-1 };
@@ -203,6 +207,15 @@ Coord shift(Node** plist)
 	free(p);
 
 	return t;
+}
+
+int ** dynamic_array_alloc(int N, int M)
+{
+	int **A = (int **)malloc(M * sizeof(int *));
+	for (int i = 0; i < M; i++) {
+		A[i] = (int *)malloc(N * sizeof(int));
+	}
+	return A;
 }
 
 int push(Node** plist, Coord a)
