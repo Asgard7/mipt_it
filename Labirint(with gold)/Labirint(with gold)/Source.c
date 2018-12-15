@@ -145,6 +145,19 @@ Node* insert_after(Node* ptr_elem, Coord a)
 	}
 }
 
+Node* tail(Node* list)
+{
+	if (list == NULL)
+		return NULL;
+	Node* ptr = list, *qtr;
+	do
+	{
+		qtr = ptr;
+		ptr = ptr->next;
+	} while (ptr != NULL);
+	return qtr;
+}
+
 void print(Node* list)
 {
 	Node* ptr = list;
@@ -160,37 +173,12 @@ void print(Node* list)
 		else
 		{
 			printf("(%d %d) ;\n", ptr->value.x, ptr->value.y);
-			return;
+			break;
 		}
 	}
 
 }
 
-Node* tail(Node* list)
-{
-	if (list == NULL)
-		return NULL;
-	Node* ptr = list, *qtr;
-	do
-	{
-		qtr = ptr;
-		ptr = ptr->next;
-	} while (ptr != NULL);
-	return qtr;
-}
-
-int push(Node** plist, Coord a)
-{
-	Node* t = tail(*plist);
-	Node* q = insert_after(t, a);
-	if (t == NULL)
-	{
-		*plist = q;
-		return 0;
-	}
-	else
-		return 1;
-}
 void unshift(Node** plist, Coord a)
 {
 	Node* p = (Node*)malloc(sizeof(Node));
@@ -201,7 +189,6 @@ void unshift(Node** plist, Coord a)
 	p->value = a;
 	*plist = p;
 }
-
 
 Coord shift(Node** plist)
 {
@@ -217,6 +204,20 @@ Coord shift(Node** plist)
 
 	return t;
 }
+
+int push(Node** plist, Coord a)
+{
+	Node* t = tail(*plist);
+	Node* q = insert_after(t, a);
+	if (t == NULL)
+	{
+		*plist = q;
+		return 0;
+	}
+	else
+		return 1;
+}
+
 //если  flag=0 ищем маршрут от точки A до выхода из лабиринта. Возвращаем 1, если выход есть, иначе 0.
 //если flag =1 ищем кратчайший маршрут от точки A до ячейки со звездочкой. Если звездоча есть, возвращаем 
 //значение 1, если нет, возвращаем 0. Координаты ближайшей ячейки со звездочкой это *pB  .
@@ -318,5 +319,4 @@ int path(int flag, Coord A, Coord* pB, int** z, int** s, int** c, Coord** p, int
 
 	}
 	return 0;
-
 }
